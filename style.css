@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(212, 224, 232);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container > .innerdiv {
+  display: flex;
+  justify-content: center;
+  background-image: url('images/img2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#clock {
+  font-size: 100px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 200px;
+
+  text-align: center;
+  color: teal;
+  border-radius: 20px;
+}
+#clock:hover {
+  font-size: 100px;
+  color: tomato;
+}
+.outerfooter {
+  display: flex;
+  justify-content: center;
+}
+.footer {
+  border: 5px solid teal;
+  border-radius: 10px;
+  background-color: rgba(33, 33, 34, 0.2);
+  text-align: center;
+  width: 50%;
+}
